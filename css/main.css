@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-ExtraLight';
+    src: url(../fonts/Montserrat-ExtraLight.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat" ;
+    background: url(../img/back_header.jpg) no-repeat center top / cover;
+    background-attachment: fixed;
+    font-family: 'Montserrat-ExtraLight';
+}
+header{
+    width: 90%;
+    margin: 0 auto;
+    height: 110vh;
+    color: #fff;
+}
+.menu{
+    padding-top: 25px;
+    position: relative;
+}
+.logo{
+    width: 65px;
+}
+.text_logo{
+    position: absolute;
+    top: 25px;
+    display: inline-block;
+    font-size: 15px;
+    font-style: italic;
+    width: 400px;
+    line-height: 25px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.menu_contacts{
+    display: inline-block;
+    float: right;
+    padding-top: 20px;
+}
+.phone{
+    display: inline;
+    margin-right: 50px;
+    color: #fff;
+    font-size: 21px;
+}
+.button_tel{
+    display: inline-block;
+    margin-right: 50px;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    color: #fff;
+    transition: 0.6s;
+}
+.button_tel:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.main_title{
+    width: 950px;
+    margin: 0 auto;
+    padding-top: 32vh;
+}
+.big_title{
+    font-size: 71px;
+    font-family: 'Montserrat-ExtraLight';
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.sub_title{
+    margin-top: 35px;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.about_me{
+    /* height: 110vh; */
+    background-color: #94ac94;
+    padding: 90px 80px ;
+    padding-bottom: 65px;
+    display: flex;
+}
+.img_me{
+    width: 680px;
+}
+.text_about_me{
+    padding: 110px;
+    color: #fff;
+    font-family: 'Montserrat-ExtraLight';
+}
+.text_about_me >h1{
+
+    font-size: 40px;
+}
+.text_about_me >p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.services{
+    padding: 50px;
+    background-color: #fff;
+    position: relative;
+}
+.services_container{
+    width: 78%;
+    margin: 0 auto;
+    height: 250vh;
+
+}
+.metla{
+    width: 580px;
+    position: absolute;
+    transform:  rotate(150deg) translateX(-785px) translateY(-280px);
+    /* border: 1px solid red; */
+}
+.services_container >h1{
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 40px;
+    color:  #10420A;
+    padding-top: 55px;
+}
+.services_flexbox{
+    display: flex;
+    padding-top: 26vh;
+} 
+.box{
+    flex: 1;
+    padding-right: 20px;
+}
+.box >h3{
+    color:  #10420A;
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+}
+.box >p{
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+} 
+.kovsh{
+    margin-top: 20px;
+    width: 480px;
+}
+.lol{
+    transform: translateY(260px);
+}
+
+.sect_slider{
+    padding: 50px;
+    display: flex;
+    background-color: #94ac94;
+}
+.my_contacts{
+    background-color: #fff;
+    height: 80vh;
+    padding-top: 15vh;
+    color: #fff;
+}
+.container{
+    width: 85%;
+    display: flex;
+    margin: 0 auto;
+}
+.my_contacts-true{
+    flex: 1;
+    height: 50vh;
+    background-color: #94ac94;
+    text-align: center;
+}
+.my_contacts-true > h3{
+    font-size: 38px;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+.my_contacts-true > a{
+    margin: 0;
+    padding: 0;
+}
+.my_contacts_img{
+    flex: 1;
+    background:url(../img/cont.jpg) no-repeat center  / cover;
+}
+.foot_text{
+    text-align: center;
+    color:  #10420A;
+    padding-top: 150px;
+}
